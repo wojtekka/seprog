@@ -12,6 +12,7 @@
 #include <fcntl.h>
 #include <termios.h>
 #include <errno.h>
+#include "main.h"
 
 static struct termios oldtio;
 static int fd = -1;
@@ -25,12 +26,13 @@ static int fd = -1;
 #include <stdarg.h>
 #include <string.h>
 #include <errno.h>
+#include "main.h"
 
 static HANDLE sfd = NULL;
 
 #endif /* WIN32 */
 
-#define debug(x, y...) do { } while(0)
+#define debug(x, y...) do { if (verbose) fprintf(stderr, x, y); } while(0)
 
 /*
  * serial_read()
