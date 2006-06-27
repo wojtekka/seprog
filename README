@@ -1,0 +1,17 @@
+
+   seprog-0.1
+   (C) Copyright 2003 Wojtek Kaniewski <wojtekka@irc.pl>
+
+   Przyk³ady u¿ycia:
+
+      seprog chip at89c51 erase write program.bin
+
+          Wyczy¶ci i zaprogramuje AT89C51 plikiem program.bin. Programator
+	  pod³±czony do portu wskazanego przez /dev/seprog.
+
+      seprog port /dev/ttyS0 chip at89c2051 read plik.bin
+
+          Czyta zawarto¶æ AT89C2051 i zapisuje do pliku plik.bin. Programator
+	  pod³±czony do portu /dev/ttyS0.
+   
+
