@@ -8,11 +8,17 @@
 #include "config.h"
 #include "device.h"
 
+#ifndef WIN32
+#define DEFAULT_DEVICE "/dev/seprog"
+#else
+#define DEFAULT_DEVICE "COM1"
+#endif
+
 void usage(char *a0)
 {
 	fprintf(stderr, "usage: %s [options]\n", a0);
 	fprintf(stderr, "  chip <name>       (default: at89c2051)\n");
-	fprintf(stderr, "  port <port>       (default: /dev/seprog)\n");
+	fprintf(stderr, "  port <port>       (default: " DEFAULT_DEVICE ")\n");
 	fprintf(stderr, "  offset <value>\n");
 	fprintf(stderr, "  size <value>\n");
 	fprintf(stderr, "\n");
@@ -26,7 +32,8 @@ void usage(char *a0)
 int main(int argc, char **argv)
 {
 	int i, offset = 0, size = 0;
-	const char *port = "/dev/seprog";
+
+	const char *port = DEFAULT_DEVICE;
 
 	if (argc < 2) {
 		usage(argv[0]);
@@ -121,7 +128,7 @@ int main(int argc, char **argv)
 			result = chip_erase();
 
 			if (result == -1)
-				printf("Erased\n");
+				printf("Done\n");
 			else
 				printf("Not blank at offset %.4x\n", result);
 			
@@ -130,7 +137,7 @@ int main(int argc, char **argv)
 
 		if (!strncasecmp(argv[i], "read", strlen(argv[i])) && (i + 1) < argc) {
 			char *buf = malloc(size);
-			int fd;
+			FILE * fp;
 
 			i++;
 
@@ -140,7 +147,7 @@ int main(int argc, char **argv)
 
 			chip_read(0, size, buf);
 
-			printf("Read\n");
+			printf("Done\n");
 		
 			if (!argv[i]) {
 				fprintf(stderr, "Need filename");
@@ -149,17 +156,17 @@ int main(int argc, char **argv)
 
 			unlink(argv[i]);
 
-			if ((fd = open(argv[i], O_WRONLY | O_CREAT, 0644)) == -1) {
+			if ((fp = fopen(argv[i], "wb")) == NULL) {
 				perror(argv[i]);
 				goto cleanup;
 			}
 				
-			if (write(fd, buf, size) < size) {
+			if (fwrite(buf, 1, size, fp) < size) {
 				perror(argv[i]);
 				goto cleanup;
 			}
 
-			close(fd);
+			fclose(fp);
 		
 			continue;
 		}
@@ -184,7 +191,8 @@ int main(int argc, char **argv)
 
 		if (!strncasecmp(argv[i], "write", strlen(argv[i])) && (i + 1) < argc) {
 			char *buf = malloc(chip->size);
-			int fd, size, result;
+			int size, result;
+			FILE * fp;
 
 			i++;
 
@@ -195,9 +203,13 @@ int main(int argc, char **argv)
 				goto cleanup;
 			}
 
-			fd = open(argv[i], O_RDONLY);
-			size = read(fd, buf, chip->size);
-			close(fd);
+			if ((fp = fopen(argv[i], "rb")) == NULL) {
+				perror(argv[i]);
+				goto cleanup;
+			}
+
+			size = fread(buf, 1, chip->size, fp);
+			fclose(fp);
 
 			printf("Writing %s (offset=0x%.4x, size=0x%.4x)...\n", chip->name, offset, size);
 	
@@ -206,7 +218,7 @@ int main(int argc, char **argv)
 			if (result != size)
 				printf("Error at offset %.4x\n", result);
 			else
-				printf("Written");
+				printf("Done\n");
 		
 			continue;
 		}

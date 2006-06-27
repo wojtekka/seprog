@@ -1,6 +1,9 @@
 
-   seprog-0.1
-   (C) Copyright 2003 Wojtek Kaniewski <wojtekka@irc.pl>
+   seprog-0.2
+   (C) Copyright 2003-2004 Wojtek Kaniewski <wojtekka@irc.pl>
+
+   Program zosta³ przeniesiony do Win32 przez Krzysztofa Rusockiego
+   <kszysiu@iceberg.elsat.net.pl>
 
    Przyk³ady u¿ycia:
 
@@ -13,5 +16,11 @@
 
           Czyta zawarto¶æ AT89C2051 i zapisuje do pliku plik.bin. Programator
 	  pod³±czony do portu /dev/ttyS0.
-   
+
+   Historia zamian:
+
+   - 0.2 - kompiluje siê za pomoc± Cygwina i mingw32,
+           dodana obs³uga AT29C010,
+	   wy¶wietlanie postêpu.
+   - 0.1 - pierwsza wersja.
 

@@ -1,3 +1,7 @@
+#ifdef WIN32
+#include <windows.h>
+#endif
+#include <stdio.h>
 #include <unistd.h>
 #include "serial.h"
 #include "config.h"
@@ -107,13 +111,15 @@ void chip_read(int offset, int size, unsigned char *buffer)
  */
 int chip_write(int offset, int size, unsigned char *buffer)
 {
+	int count = 0, ssize = size;
+
 	serial_write_ack(2, 0x44, chip->type);
 	serial_write_ack(2, 0x56, chip->vpp);
 	serial_write_ack(2, 0x47, 0x30);
-	serial_write_ack(4, 0x41, 0x00, (offset >> 8), (offset & 255));
+	serial_write_ack(4, 0x41, ((offset >> 16) & 255), ((offset >> 8) & 255), (offset & 255));
 	if (chip->bits == 16)
 		size /= 2;
-	serial_write_ack(4, 0x50, 0x00, (size >> 8), (size & 255));
+	serial_write_ack(4, 0x50, ((size >> 16) & 255), ((size >> 8) & 255), (size & 255));
 	if (chip->bits == 16)
 		size *= 16;
 
@@ -122,10 +128,15 @@ int chip_write(int offset, int size, unsigned char *buffer)
 	while (size > 0) {
 		int i, chunk = (size > ((chip->bits == 16) ? 0x40 : 0x20)) ? ((chip->bits == 16) ? 0x40 : 0x20) : size;
 
-		for (i = 0; i < chunk; i++)
+		for (i = 0; i < chunk; i++, count++)
 			serial_write_nak(1, buffer[i]);
 
-		usleep(chip->delay * 1000);
+		if (chip->delay)
+#ifndef WIN32
+			usleep(chip->delay * 1000);
+#else
+			Sleep(chip->delay);
+#endif
 
 		for (i = 0; i < chunk; i++, offset++) {
 			if (serial_read() != 0) {
@@ -136,6 +147,9 @@ int chip_write(int offset, int size, unsigned char *buffer)
 
 		buffer += chunk;
 		size -= chunk;
+		
+		printf("\r%d%%", 100 * count / ssize);
+		fflush(stdout);
 	}
 
 	serial_write_ack(1, 0x48);
