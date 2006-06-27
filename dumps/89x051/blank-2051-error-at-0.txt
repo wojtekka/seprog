@@ -1,0 +1,48 @@
+blank check 89c1051 ok:
+
+Port1:  44(D) 5b([)
+Port2:  44(D) 5b([)
+Port1:  56(V) 60(`)
+Port2:  56(V) 60(`)
+Port1:  47(G) 30(0)
+        <waited 1.9957 seconds>
+Port2:  47(G) 30(0)
+Port1:  41(A) <00><00><00>
+Port2:  41(A) <00><00><00>
+Port1:  43(C) <00><04><00>
+Port2:  43(C) <00><04><00><00><04><00>
+Port1:  48(H)
+Port2:  48(H)
+
+error at 0 of 89c2051:
+
+Port1:  44(D) 5b([)
+Port2:  44(D) 5b([)
+Port1:  56(V) 60(`)
+Port2:  56(V) 60(`)
+Port1:  47(G) 30(0)
+        <waited 1.9958 seconds>
+Port2:  47(G) 30(0)
+Port1:  41(A) <00><00><00>
+Port2:  41(A) <00><00><00>
+Port1:  43(C) <00><08><00>
+Port2:  43(C) <00><08><00><00><00><00>
+Port1:  48(H)
+Port2:  48(H)
+
+error at 1 of 89c2051: 
+
+Port1:  44(D) 5b([)
+Port2:  44(D) 5b([)
+Port1:  56(V) 60(`)
+Port2:  56(V) 60(`)
+Port1:  47(G) 30(0)
+        <waited 1.9955 seconds>
+Port2:  47(G) 30(0)
+Port1:  41(A) <00><00><01>
+Port2:  41(A) <00><00><01>
+Port1:  43(C) <00><07><FF>
+Port2:  43(C) <00><07><FF><00><00><01>
+Port1:  48(H)
+Port2:  48(H)
+

@@ -1,0 +1,732 @@
+	<waited 2.376535 seconds>
+Port1:	44(D) 5c(\) 
+Port2:	44(D) 5c(\) 
+Port1:	56(V) 61(a) 
+Port2:	56(V) 61(a) 
+Port1:	41(A) <00><00><00>
+Port2:	41(A) <00><00><00>
+Port1:	47(G) 30(0) 
+	<waited 1.9956 seconds>
+Port2:	47(G) 30(0) 
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	42(B) <00><00><80>
+Port2:	42(B) <00><00><80><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+	<FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF><FF>
+Port1:	48(H) 
+Port2:	48(H) 

@@ -1,0 +1,16 @@
+Port1:  44(D) 20( )
+Port2:  44(D) 20( )
+Port1:  56(V) 60(`)
+Port2:  56(V) 60(`)
+Port1:  41(A) <00><00><00>
+Port2:  41(A) <00><00><00>
+Port1:  47(G) 30(0)
+        <waited 1.9953 seconds>
+Port2:  47(G) 30(0)
+Port1:  4b(K) 35(5)
+Port2:  4b(K) 35(5) 4b(K) 35(5)
+Port1:  48(H)
+Port2:  48(H)
+
+secbit 1 & 3 ^^^^
+

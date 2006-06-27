@@ -1,0 +1,44 @@
+erase:
+
+        <waited 2.26090 seconds>
+Port1:  44(D) 5b([)
+Port2:  44(D) 5b([)
+Port1:  56(V) 61(a)
+Port2:  56(V) 61(a)
+Port1:  47(G) 30(0)
+        <waited 1.9954 seconds>
+Port2:  47(G) 30(0)
+Port1:  41(A) <00><00><00>
+Port2:  41(A) <00><00><00>
+Port1:  4a(J)
+Port2:  4a(J) 4a(J)
+Port1:  44(D) 5b([)
+Port2:  44(D) 5b([)
+Port1:  56(V) 60(`)
+Port2:  56(V) 60(`)
+Port1:  47(G) 30(0)
+        <waited 1.9959 seconds>
+Port2:  47(G) 30(0)
+Port1:  41(A) <00><00><00>
+Port2:  41(A) <00><00><00>
+Port1:  43(C) <00><04><00>
+Port2:  43(C) <00><04><00><00><04><00>
+Port1:  48(H)
+Port2:  48(H)
+
+blank check OK:
+
+Port1:  44(D) 5b([)
+Port2:  44(D) 5b([)
+Port1:  56(V) 60(`)
+Port2:  56(V) 60(`)
+Port1:  47(G) 30(0)
+        <waited 1.9957 seconds>
+Port2:  47(G) 30(0)
+Port1:  41(A) <00><00><00>
+Port2:  41(A) <00><00><00>
+Port1:  43(C) <00><04><00>
+Port2:  43(C) <00><04><00><00><04><00>
+Port1:  48(H)
+Port2:  48(H)
+

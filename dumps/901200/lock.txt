@@ -1,0 +1,18 @@
+Port1:  44(D) 5d(])
+Port2:  44(D) 5d(])
+Port1:  56(V) 61(a)
+Port2:  56(V) 61(a)
+Port1:  47(G) 30(0)
+        <waited 1.9954 seconds>
+Port2:  47(G) 30(0)
+Port1:  41(A) <00><00><00>
+Port2:  41(A) <00><00><00>
+Port1:  4b(K) 31(1)
+Port2:  4b(K) 31(1) 4b(K) 31(1)
+Port1:  48(H)
+Port2:  48(H)
+
+sec bit 1
+sec bit 2
+on-chip rc oscillator
+serial programming mode
