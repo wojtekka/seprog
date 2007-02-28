@@ -21,4 +21,3 @@ extern struct chip chips[];
 struct chip *chip;
 
 #endif
-	

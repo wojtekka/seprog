@@ -4,35 +4,75 @@
 #include <ctype.h>
 #include <string.h>
 #include <fcntl.h>
+#define _GNU_SOURCE
+#include <getopt.h>
 #include "serial.h"
 #include "config.h"
 #include "device.h"
-
-#ifndef WIN32
-#define DEFAULT_DEVICE "/dev/seprog"
-#else
-#define DEFAULT_DEVICE "COM1"
-#endif
+#include "main.h"
 
 void usage(char *a0)
 {
-	fprintf(stderr, "usage: %s [options]\n", a0);
-	fprintf(stderr, "  chip <name>       (default: at89c2051)\n");
-	fprintf(stderr, "  port <port>       (default: " DEFAULT_DEVICE ")\n");
-	fprintf(stderr, "  offset <value>\n");
-	fprintf(stderr, "  size <value>\n");
-	fprintf(stderr, "\n");
-	fprintf(stderr, "  erase\n");
-	fprintf(stderr, "  check\n");
-	fprintf(stderr, "  read <filename>\n");
-	fprintf(stderr, "  write <filename>\n");
-	fprintf(stderr, "  fuse <value>\n");
+	char buf[4096];
+	int i, j;
+
+	strcpy(buf, "  ");
+	j = 2;
+
+	for (i = 0; chips[i].name; i++) {
+		if (strlen(chips[i].name) + 4 + j > 80) {
+			snprintf(buf + strlen(buf), sizeof(buf) - strlen(buf), "\n  ");
+			j = 2;
+		}
+
+		snprintf(buf + strlen(buf), sizeof(buf) - strlen(buf), "%s ", chips[i].name);
+		j += strlen(chips[i].name) + 1;
+	}
+
+	fprintf(stderr,
+"Usage: %s [OPTIONS]...\n"
+"\n"
+"  -c, --chip=NAME     (default: %s)\n"
+"  -p, --port=PORT     (default: " DEFAULT_DEVICE ")\n"
+"  -o, --offset=VALUE\n"
+"  -s, --size=VALUE\n"
+"\n"
+"  -e, --erase\n"
+"  -b, --black-check\n"
+"  -r, --read=FILE\n"
+"  -w, --write=FILE\n"
+"  -f, --fuse=VALUE\n"
+"\n"
+"  -v, --verbose\n"
+"  -V, --version\n"
+"  -h, --help\n"
+"\n"
+"Available chips:\n"
+"%s\n"
+"\n"
+, a0, chips[DEFAULT_CHIP].name, buf);
 }
+
+
+static struct option long_options[] = {
+	{ "chip", 1, 0, 'c' },
+	{ "port", 1, 0, 'p' },
+	{ "offset", 1, 0, 'o' },
+	{ "size", 1, 0, 's' },
+	{ "erase", 0, 0, 'e' },
+	{ "blank-check", 0, 0, 'b' },
+	{ "read", 1, 0, 'r' },
+	{ "write", 1, 0, 'w' },
+	{ "fuse", 1, 0, 'f' },
+	{ "verbose", 0, 0, 'v' },
+	{ "version", 0, 0, 'V' },
+	{ "help", 0, 0, 'h' },
+	{ 0, 0, 0, 0 }
+};
 
 int main(int argc, char **argv)
 {
-	int i, offset = 0, size = 0;
-
+	int c, optind2, offset = 0, size = 0;
 	const char *port = DEFAULT_DEVICE;
 
 	if (argc < 2) {
@@ -40,187 +80,221 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 
-	chip = &chips[1];
+	chip = &chips[DEFAULT_CHIP];
 
-	for (i = 1; i < argc; i++) {
-		if (!strncasecmp(argv[i], "chip", strlen(argv[i])) && (i + 1) < argc) {
-			int j;
+	while ((c = getopt_long(argc, argv, "c:p:o:s:ebr:w:f:vVh", long_options, &optind2)) != -1) {
+		switch (c) {
+			case 'c':
+			{
+				int i;
 
-			i++;
+				chip = NULL;
 
-			chip = NULL;
+				for (i = 0; chips[i].name; i++) {
+					if (!strcmp(chips[i].name, optarg)) {
+						chip = &chips[i];
+						break;
+					}
 
-			for (j = 0; chips[j].name; j++) {
-				if (!strcmp(chips[j].name, argv[i])) {
-					chip = &chips[j];
-					break;
+					if (strstr(chips[i].name, optarg)) {
+						if (chip) {
+							fprintf(stderr, "Chip name \"%s\" in ambigous\n", optarg);
+							exit(1);
+						} else
+							chip = &chips[i];
+					}
 				}
-
-				if (strstr(chips[j].name, argv[i])) {
-					if (chip) {
-						fprintf(stderr, "Chip name \"%s\" in ambigous\n", argv[i]);
-						exit(1);
-					} else
-						chip = &chips[j];
-				}
-			}
-
-			offset = 0;
-			size = chip->size;
-
-			continue;
-		}
-
-		if (!strncasecmp(argv[i], "port", strlen(argv[i])) && (i + 1) < argc) {
-			i++;
-
-			serial_close();
-			
-			port = argv[i];
-			
-			continue;
-		}
-
-		if (!strncasecmp(argv[i], "offset", strlen(argv[i])) && (i + 1) < argc) {
-			i++;
-
-			offset = strtol(argv[i], NULL, 0);
-
-			printf("offset = %.4x\n", offset);
-			
-			continue;
-		}
-
-		if (!strncasecmp(argv[i], "size", strlen(argv[i])) && (i + 1) < argc) {
-			i++;
-
-			size = strtol(argv[i], NULL, 0);
-
-			printf("size = %.4x\n", size);
-			
-			continue;
-		}
-
-		if (!strncasecmp(argv[i], "check", strlen(argv[i]))) {
-			int result;
-
-			serial_open(port);
-			
-			printf("Checking %s...\n", chip->name);
-			
-			result = chip_blank_check(0, -1);
-
-			if (result == -1)
-				printf("Blank\n");
-			else
-				printf("Not blank at offset %.4x\n", result);
-			
-			continue;
-		}	
-
-		if (!strncasecmp(argv[i], "erase", strlen(argv[i]))) {
-			int result;
-			
-			serial_open(port);
-			
-			printf("Erasing %s...\n", chip->name);
-			
-			result = chip_erase();
-
-			if (result == -1)
-				printf("Done\n");
-			else
-				printf("Not blank at offset %.4x\n", result);
-			
-			continue;
-		}
-
-		if (!strncasecmp(argv[i], "read", strlen(argv[i])) && (i + 1) < argc) {
-			char *buf = malloc(size);
-			FILE * fp;
-
-			i++;
-
-			serial_open(port);
-			
-			printf("Reading %s (offset=0x%.4x, size=0x%.4x)...\n", chip->name, offset, size);
-
-			chip_read(0, size, buf);
-
-			printf("Done\n");
-		
-			if (!argv[i]) {
-				fprintf(stderr, "Need filename");
-				goto cleanup;
-			}
-
-			unlink(argv[i]);
-
-			if ((fp = fopen(argv[i], "wb")) == NULL) {
-				perror(argv[i]);
-				goto cleanup;
-			}
 				
-			if (fwrite(buf, 1, size, fp) < size) {
-				perror(argv[i]);
-				goto cleanup;
+				offset = 0;
+				size = chip->size;
+
+				break;
 			}
 
-			fclose(fp);
-		
-			continue;
-		}
+			case 'p':
+			{
+				serial_close();
+				port = optarg;
+				break;
+			}
 
-		if (!strncasecmp(argv[i], "fuse", strlen(argv[i])) && (i + 1) < argc) {
-			int value;
+			case 'o':
+			{
+				char *endptr;
 
-			i++;
+				offset = strtol(optarg, &endptr, 0);
 
-			serial_open(port);
+				if (*endptr) {
+					fprintf(stderr, "Invalid offset \"%s\"\n", optarg);
+					goto cleanup;
+				}
 
-			value = strtol(argv[i], NULL, 0);
+				break;
+			}
+
+			case 's':
+			{
+				char *endptr;
+
+				size = strtol(optarg, &endptr, 0);
+
+				if (*endptr) {
+					fprintf(stderr, "Invalid size \"%s\"\n", optarg);
+					goto cleanup;
+				}
+
+				break;
+			}
 			
-			printf("Fusing %s (value=0x%.2x)...\n", chip->name, value);
+			case 'b':
+			{
+				int res;
 
-			chip_fuse(value);
-
-			printf("Done\n");
-	
-			continue;
-		}
-
-		if (!strncasecmp(argv[i], "write", strlen(argv[i])) && (i + 1) < argc) {
-			char *buf = malloc(chip->size);
-			int size, result;
-			FILE * fp;
-
-			i++;
-
-			serial_open(port);
+				serial_open(port);
 			
-			if (!argv[i]) {
-				fprintf(stderr, "Need filename");
-				goto cleanup;
+				printf("Checking %s...\n", chip->name);
+			
+				if ((res = chip_blank_check(0, -1)) == -1)
+					printf("Blank\n");
+				else
+					printf("Not blank at offset %.4x\n", res);
+				break;
 			}
 
-			if ((fp = fopen(argv[i], "rb")) == NULL) {
-				perror(argv[i]);
-				goto cleanup;
+			case 'e':
+			{
+				int res;
+
+				serial_open(port);
+				
+				printf("Erasing %s...\n", chip->name);
+			
+				if ((res = chip_erase()) == -1) 
+					printf("Done\n");
+				else
+					printf("Not blank at offset %.4x\n", res);
+				
+				break;
 			}
 
-			size = fread(buf, 1, chip->size, fp);
-			fclose(fp);
+			case 'r':
+			{
+				unsigned char *buf = malloc(size);
+				FILE *fp;
 
-			printf("Writing %s (offset=0x%.4x, size=0x%.4x)...\n", chip->name, offset, size);
-	
-			result = chip_write(offset, size, buf);
-	
-			if (result != size)
-				printf("Error at offset %.4x\n", result);
-			else
+				serial_open(port);
+			
+				printf("Reading %s (offset=0x%.4x, size=0x%.4x)...\n", chip->name, offset, size);
+
+				chip_read(0, size, buf);
+
 				printf("Done\n");
 		
-			continue;
+				if (!optarg) {
+					fprintf(stderr, "Need filename\n");
+					goto cleanup;
+				}
+				
+				if (unlink(optarg) == -1) {
+					perror(optarg);
+					goto cleanup;
+				}
+				
+				if (!(fp = fopen(optarg, "wb"))) {
+					perror(optarg);
+					goto cleanup;
+				}
+				
+				if (fwrite(buf, 1, size, fp) < size) {
+					perror(optarg);
+					fclose(fp);
+					goto cleanup;
+				}
+
+				fclose(fp);
+
+				break;
+			}
+			
+			case 'f':
+			{
+				char *endptr;
+				int value;
+
+				serial_open(port);
+				
+				value = strtol(optarg, &endptr, 0);
+			
+				if (*endptr) {
+					fprintf(stderr, "Invalid fuse \"%s\"\n", optarg);
+					goto cleanup;
+				}
+
+				printf("Fusing %s (value=0x%.2x)...\n", chip->name, value);
+
+				chip_fuse(value);
+	
+				printf("Done\n");
+		
+				break;
+			}
+
+			case 'w':
+			{
+				unsigned char *buf = malloc(chip->size);
+				int size, result;
+				FILE *fp;
+
+				serial_open(port);
+			
+				if (!optarg) {
+					fprintf(stderr, "Need filename\n");
+					goto cleanup;
+				}
+				
+				if (!(fp = fopen(optarg, "rb"))) {
+					perror(optarg);
+					goto cleanup;
+				}
+				
+				size = fread(buf, 1, chip->size, fp);
+				fclose(fp);
+
+				printf("Writing %s (offset=0x%.4x, size=0x%.4x)...\n", chip->name, offset, size);
+	
+				result = chip_write(offset, size, buf);
+	
+				if (result != size)
+					printf("Error at offset %.4x\n", result);
+				else
+					printf("Done\n");
+				
+				break;
+			}
+
+			case 'h':
+			{
+				usage(argv[0]);
+				exit(0);
+			}
+
+			case 'v':
+			{
+				verbose++;
+				break;
+			}
+
+			case 'V':
+			{
+				printf("seprog %s\n", VERSION);
+				break;
+			}
+
+			default:
+			{
+				usage(argv[0]);
+				exit(1);
+			}
 		}
 	}
 
